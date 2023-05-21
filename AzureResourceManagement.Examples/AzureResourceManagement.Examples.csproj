@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>  
+        <PackageReference Include="Azure.Core" Version="1.26.0" />
+        <PackageReference Include="Azure.Identity" Version="1.6.0" />
+        <PackageReference Include="Azure.ResourceManager" Version="1.3.2" />
+        <PackageReference Include="Azure.ResourceManager.AppService" Version="1.0.0-beta.2" />
+        <PackageReference Include="Azure.ResourceManager.Batch" Version="1.1.0" />
+        <PackageReference Include="Azure.ResourceManager.Cdn" Version="1.0.0-beta.5" />
+        <PackageReference Include="Azure.ResourceManager.CosmosDB" Version="1.2.0" />
+        <PackageReference Include="Azure.ResourceManager.PostgreSql" Version="1.0.0" />
+        <PackageReference Include="Azure.ResourceManager.Resources" Version="1.0.0" />
+        <PackageReference Include="Azure.ResourceManager.Storage" Version="1.0.0-beta.9" />
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.12.0" />
+        <PackageReference Include="Azure.Storage.Files.Shares" Version="12.10.0" />
+        <PackageReference Include="Microsoft.Azure.Management.Network" Version="22.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AzureResourceManagement\AzureResourceManagement.csproj" />
+    </ItemGroup>
+</Project>
