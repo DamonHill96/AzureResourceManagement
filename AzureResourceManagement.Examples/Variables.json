@@ -1,0 +1,5 @@
+{
+  "ResourcePrefix": "test",
+  "ClientId": "my_client_id",
+  "ClientSecret": "my_client_secret"
+}
